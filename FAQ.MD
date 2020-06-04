@@ -7,7 +7,7 @@ Yes, Xamarin.Forms.<br/>
 <br/>
 <b>Does the app support Windows.Forms?</b><br/>
 No. Android OS != Windows.<br/>
-It is impossible for Android to support Windows.Forms due to extreme incompatibility issues (no touch, no applicable mapping for most controls and incompatable layouts for starters)<br/>
+It is impossible for Android to support Windows.Forms due to extreme incompatibility issues (no touch, no applicable mapping for most controls, incompatable layouts and heavy dependency on Windows API)<br/>
 <br/>
 <b>Why can't I close file/project?</b><br/>
 Redundant operation. They are closed automatically when you open or create a new one.<br/>
@@ -20,18 +20,19 @@ Yes, but not fully. Anything containing library dependencies that aren't .NET/C#
 <br/>
 <b>Does the app support databases?</b><br/>
 In general, yes. However a full ORM like Entity isn't properly supported.<br/>
+Note that you would need to use <font color='green'>Xamarin.MySql.Data</font> instead of <font color='red'>MySql.Data</font>.<br/>
 <br/>
 <b>Does the app support scripts?</b><br/>
 No, that might be confusing for people who aren't yet familiar with the C# language.<br/>
 <br/>
 <b>Does the app support creating class or page/xaml files?</b><br/>
-Yes, from the ""+"" in the left project menu. It doesn't support automatically making classes in an already existing file, since that is the same as typing it somewhere.<br/>
+Yes, from the "+" in the left project menu. It doesn't support automatically making classes in an already existing file, since that is the same as typing it somewhere.<br/>
 <br/>
 <b>Can I reference a ".dll" file?</b><br/>
 Yes, from the "+" in the left project menu.<br/>
 <br/>
 <b>Does the app support external keyboards?</b><br/>
-Yes. Including a few custom shortcuts.<br/>
+Yes. Including a few custom shortcuts (see settings).<br/>
 <br/>
 <b>How to fix "You need to declare the permission..." ?</b><br/>
 You need to declare it from the "APK project settings" and then export as APK.<br/>
