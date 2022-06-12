@@ -3,7 +3,7 @@ The app uses the Roslyn compiler - full C# 8 compilation support.<br/>
 Any compilation related error encountered is a syntax or logic error in your own code and thefore only adressable by you.<br/>
 <br/>
 <b>Does the app support GUI?</b><br/>
-Yes, Xamarin.Forms.<br/>
+Yes, Xamarin.Forms.<br/> However currently the app doesn't support generating Java peers and Android resources. This means that anything inheriting Java.Lang.Object, directly or not won't have Java part required and will throw and Exception.
 <br/>
 <b>Does the app support Windows.Forms?</b><br/>
 No. Android OS != Windows.<br/>
@@ -26,10 +26,10 @@ Note that you would need to use <font color='green'>Xamarin.MySql.Data</font> in
 No, that might be confusing for people who aren't yet familiar with the C# language.<br/>
 <br/>
 <b>Does the app support creating class or page/xaml files?</b><br/>
-Yes, from the "+" in the left project menu. It doesn't support automatically making classes in an already existing file, since that is the same as typing it somewhere.<br/>
+Yes, from the "..." folder dropdowns in the left project menu. It doesn't support automatically making classes in an already existing file, since that is the same as typing it somewhere.<br/>
 <br/>
 <b>Can I reference a ".dll" file?</b><br/>
-Yes, from the "+" in the left project menu.<br/>
+Yes, from the "..." menu in the left project menu's assembly references section.<br/>
 <br/>
 <b>Does the app support external keyboards?</b><br/>
 Yes. Including a few custom shortcuts (see settings).<br/>
@@ -38,7 +38,6 @@ Yes. Including a few custom shortcuts (see settings).<br/>
 You need to declare it from the "APK project settings" and then export as APK.<br/>
 <br/>
 <b>Is the app free?</b><br/>
-Yes and no. There is a 14 day period where it is completely free in any situation.<br/>
-After that there are 2 options for all functionality:<br/>
-   1. A single time purchase for about 2 USD.<br/>
-   2. An ad-supported model that actively requires an internet connection.
+Yes, mostly. The non premium version shows a banner ad when the keyboard is closed and sometimes a popup ad when exporting APK.<br/>
+The only features locked out by premium are realtime code errors and cloud sync.<br/>
+However there is a free trial in the premium section to test them out.
