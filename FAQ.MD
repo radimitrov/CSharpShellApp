@@ -17,7 +17,7 @@ It is a RAM intensive app. Other RAM intensive apps you use (like a web browser)
 <br/>
 <b>Does the app support NuGet packages?</b><br/>
 Yes. However, anything containing library dependencies that aren't .NET/C# won't work. Including Android bindings, at least for now.<br/>
-Native .so (C++) libraries are included when you build an APK.
+Native .so (C++) libraries are included when you build an APK.<br/>
 <br/>
 <b>Does the app support databases?</b><br/>
 In general, yes. However a full ORM like Entity might not be properly supported unless you stick to SQLite.<br/>
