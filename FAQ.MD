@@ -25,6 +25,7 @@ Note that you would need to use <font color='green'>Xamarin.MySql.Data</font> in
 <br/>
 <b>Does the app support scripts?</b><br/>
 No, that might be confusing for people who aren't yet familiar with the C# language.<br/>
+However since it is now a language feature it does support top level statements, which is practically identical for simple code.<br/>
 <br/>
 <b>Does the app support creating class or page/xaml files?</b><br/>
 Yes, from the "..." folder dropdowns in the left project menu. It doesn't support automatically making classes in an already existing file, since that is the same (or slower) as typing it somewhere.<br/>
